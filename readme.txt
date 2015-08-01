@@ -25,6 +25,7 @@ Browser Compatibility
 
 	enable from your php.in
 	extension=php_openssl.dll
+	extension=php_fileinfo.dll
 	
 	for gmail.
 	Mail Server: {imap.gmail.com:993/imap/ssl}INBOX
