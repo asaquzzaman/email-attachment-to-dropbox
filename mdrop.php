@@ -1,8 +1,7 @@
 <?php
 /**
- * Plugin Name: Email attachment to dropbox
- * Plugin URI: http://mishubd.com/plugin/human-resource-management-hrm/
- * Description: Pull your email with attachment and send it to WP-post or dropbox
+ * Plugin Name: E-mail attachment to dropbox
+ * Description: Fetch your email attachment and send it to dropbox. You can make it also wp-post
  * Author: asaquzzaman
  * Version: 0.1
  * Author URI: http://mishubd.com

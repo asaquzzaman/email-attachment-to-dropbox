@@ -1,34 +1,46 @@
-for gmail.
-{imap.gmail.com:993/imap/ssl}INBOX
-https://support.google.com/mail/troubleshooter/1668960
-https://www.google.com/settings/security/lesssecureapps
-enable from your php.in
-extension=php_openssl.dll
+=== Send email attachment to dropbox ===
 
-yahoo
-{imap.mail.yahoo.com:993/imap/ssl}INBOX
+Contributors: asaquzzaman
+Tags: email to wp, email to wordpress, email wp post, email to dropbox.
+Requires at least: 4.1
+Tested up to: 4.1
+Stable tag: trunk
+License: GPLv2 or later
 
-hotmail
-{imap-mail.outlook.com:993/imap/ssl}INBOX
+Send email attachment to dropbox
 
-others
+== Description ==
+    Fetch your email attachment and send it to dropbox. You can make it also wp-post
 
-// To connect to an IMAP server running on port 143 on the local machine,
-// do the following:
-$mbox = imap_open("{localhost:143}INBOX", "user_id", "password");
+== Installation ==
 
-// To connect to a POP3 server on port 110 on the local server, use:
-$mbox = imap_open ("{localhost:110/pop3}INBOX", "user_id", "password");
+	1. Unzip and upload the hrm directory to /wp-content/plugins/
+    2. Activate the plugin through the Plugins menu in WordPress
 
-// To connect to an SSL IMAP or POP3 server, add /ssl after the protocol
-// specification:
-$mbox = imap_open ("{localhost:993/imap/ssl}INBOX", "user_id", "password");
+Browser Compatibility
 
-// To connect to an SSL IMAP or POP3 server with a self-signed certificate,
-// add /ssl/novalidate-cert after the protocol specification:
-$mbox = imap_open ("{localhost:995/pop3/ssl/novalidate-cert}", "user_id", "password");
+    1. Google Chrome
+    2. Firefox.
 
-// To connect to an NNTP server on port 119 on the local server, use:
-$nntp = imap_open ("{localhost:119/nntp}comp.test", "", "");
-// To connect to a remote server replace "localhost" with the name or the
-// IP address of the server you want to connect to.
+= Usage =
+	Complete the settings form. All fields are required. Enjoy with this plugin
+	
+
+== Screenshots ==
+
+
+== Changelog ==
+
+
+== Frequently Asked Questions ==
+
+You can contact with me joy.mishu@gmail.com with this email address. You can ask me any kinds of question about this plugin.
+
+== Upgrade Notice ==
+
+Nothing to say
+
+Thanks for beign with me.
+
+
+
